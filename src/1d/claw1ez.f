@@ -70,7 +70,7 @@ c
          read(55,*) nstepout
          read(55,*) nstop
          read(55,*) output_t0
-         nout = nstop
+         nout = nstepout
       else
          print *, '*** Unrecognized output style ', outstyle
          print *, '*** Exiting claw1ez'
